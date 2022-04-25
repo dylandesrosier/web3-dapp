@@ -1,0 +1,161 @@
+@font-face {
+  font-family: "CerebriSans";
+  src: url("/fonts/CerebriSans/CerebriSans-Light.ttf");
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "CerebriSans";
+  src: url("/fonts/CerebriSans/CerebriSans-LightItalic.ttf");
+  font-style: italic;
+  font-weight: 300;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "CerebriSans";
+  src: url("/fonts/CerebriSans/CerebriSans-Regular.ttf");
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "CerebriSans";
+  src: url("/fonts/CerebriSans/CerebriSans-Italic.ttf");
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "CerebriSans";
+  src: url("/fonts/CerebriSans/CerebriSans-Medium.ttf");
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "CerebriSans";
+  src: url("/fonts/CerebriSans/CerebriSans-MediumItalic.ttf");
+  font-style: italic;
+  font-weight: 500;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "CerebriSans";
+  src: url("/fonts/CerebriSans/CerebriSans-Medium.ttf");
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "CerebriSans";
+  src: url("/fonts/CerebriSans/CerebriSans-MediumItalic.ttf");
+  font-style: italic;
+  font-weight: 500;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "CerebriSans";
+  src: url("/fonts/CerebriSans/CerebriSans-SemiBold.ttf");
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "CerebriSans";
+  src: url("/fonts/CerebriSans/CerebriSans-SemiBoldItalic.ttf");
+  font-style: italic;
+  font-weight: 600;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "CerebriSans";
+  src: url("/fonts/CerebriSans/CerebriSans-Bold.ttf");
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "CerebriSans";
+  src: url("/fonts/CerebriSans/CerebriSans-BoldItalic.ttf");
+  font-style: italic;
+  font-weight: 700;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "CerebriSans";
+  src: url("/fonts/CerebriSans/CerebriSans-ExtraBold.ttf");
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "CerebriSans";
+  src: url("/fonts/CerebriSans/CerebriSans-ExtraBoldItalic.ttf");
+  font-style: italic;
+  font-weight: 800;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "CerebriSans";
+  src: url("/fonts/CerebriSans/CerebriSans-Heavy.ttf");
+  font-style: normal;
+  font-weight: 900;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "CerebriSans";
+  src: url("/fonts/CerebriSans/CerebriSans-HeavyItalic.ttf");
+  font-style: italic;
+  font-weight: 900;
+  font-display: swap;
+}
+
+/* OpenSans */
+
+@font-face {
+  font-family: "OpenSans";
+  src: url("/fonts/OpenSans/OpenSans-Bold.ttf");
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "OpenSans";
+  src: url("/fonts/OpenSans/OpenSans-Light.ttf");
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "OpenSans";
+  src: url("/fonts/OpenSans/OpenSans-Regular.ttf");
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "OpenSans";
+  src: url("/fonts/OpenSans/OpenSans-SemiBold.ttf");
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+}
