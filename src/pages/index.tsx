@@ -7,8 +7,8 @@ const Home: NextPage = () => {
   return (
     <div>
       <Head>
-        <title>Bonsai3 | alpha</title>
-        <meta name="description" content="Alpha for bonsai3" />
+        <title>Alpha</title>
+        <meta name="description" content="Alpha" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
 

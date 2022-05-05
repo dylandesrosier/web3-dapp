@@ -31,7 +31,7 @@ const chains: Chain[] = [
 const wallets = getDefaultWallets({
   chains,
   infuraId,
-  appName: "Bonsai3",
+  appName: "Alpha",
   jsonRpcUrl: ({ chainId }) =>
     chains.find((x) => x.id === chainId)?.rpcUrls?.[0] ??
     chain.mainnet.rpcUrls[0],

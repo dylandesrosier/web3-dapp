@@ -5,7 +5,7 @@ export const Header: React.FC = () => {
     <div className="py-2 w-full flex justify-center">
       <div className="px-4 flex max-w-7xl justify-between items-center w-full h-10">
         <div>
-          <span className="font-bold">Bonsai3</span>
+          <span className="font-bold">Alpha</span>
         </div>
         <div>
           <ConnectButton
