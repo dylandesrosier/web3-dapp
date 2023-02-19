@@ -1,3 +1,7 @@
+# Web3 Dapp Template
+
+An opinionated, slim app packaged with some of my favourite tools for building web3 appss
+
 ## Getting Started
 
 ### Install
