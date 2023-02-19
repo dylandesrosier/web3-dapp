@@ -1,8 +1,20 @@
-# Web3 Dapp Template
+# Web3 App Template
 
-An opinionated, slim app packaged with some of my favourite tools for building web3 appss
+A mildly opinionated, slim app configured with some of my favourite tools for building web3 apps.
+
+[React](https://reactjs.org)
+[Next](https://nextjs.org/)
+[RainbowKit](https://rainbowkit.com/)
+[WAGMI](https://wagmi.sh/)
+[Tailwind](https://tailwindcss.com)
+[Jotai](https://jotai.org)
+[React Query](https://react-query-v3.tanstack.com)
 
 ## Getting Started
+
+Use this repo as a template through GitHub or deploy straight to Vercel.
+
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fdylandesrosier%2Fweb3-app&env=NEXT_PUBLIC_INFURA_ID)
 
 ### Install
 
@@ -15,9 +27,3 @@ pnpm i
 ```
 pnpm dev
 ```
-
-Open [http://localhost:3000](http://localhost:3000)
-
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
-
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
