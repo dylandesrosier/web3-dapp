@@ -4,6 +4,7 @@ import ReactDOM from "react-dom";
 import { X } from "react-feather";
 
 export interface ModalProps {
+  children: React.ReactNode;
   closeModal: () => void;
   size?: string;
 }
