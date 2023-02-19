@@ -9,6 +9,7 @@ A mildly opinionated, slim app configured with some of my favourite tools for bu
 [Tailwind](https://tailwindcss.com)
 [Jotai](https://jotai.org)
 [React Query](https://react-query-v3.tanstack.com)
+[Daisyui](https://daisyui.com)
 
 ## Getting Started
 

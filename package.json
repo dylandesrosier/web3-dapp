@@ -13,6 +13,7 @@
     "@babel/core": "7.4.0",
     "@rainbow-me/rainbowkit": "^0.11.0",
     "classnames": "^2.3.1",
+    "daisyui": "^2.50.1",
     "ethers": "^5.7.2",
     "jotai": "^2.0.2",
     "next": "13.1.6",
