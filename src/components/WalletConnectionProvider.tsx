@@ -1,7 +1,6 @@
 import "@rainbow-me/rainbowkit/styles.css";
 import {
   RainbowKitProvider,
-  connectorsForWallets,
   lightTheme,
   darkTheme,
   getDefaultWallets,
@@ -12,8 +11,6 @@ import { infuraProvider } from "wagmi/providers/infura";
 import { publicProvider } from "wagmi/providers/public";
 
 const INFURA_ID = process.env.NEXT_PUBLIC_INFURA_ID as string;
-
-console.log({ INFURA_ID });
 
 const { chains, provider } = configureChains(
   [mainnet, polygon, optimism, arbitrum],
@@ -40,10 +37,10 @@ export const WalletConnectionProvider = (props: {
         chains={chains}
         theme={{
           lightMode: lightTheme({
-            accentColor: "blue",
+            accentColor: "#661AE6",
           }),
           darkMode: darkTheme({
-            accentColor: "blue",
+            accentColor: "#661AE6",
           }),
         }}
       >

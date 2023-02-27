@@ -1,19 +1,47 @@
 import type { NextPage } from "next";
-import Head from "next/head";
-import Button, { ButtonColor } from "../components/Button";
-import { Header } from "../components/Header";
+import { Page } from "../components/Page";
 
-const Home: NextPage = () => {
+const Home: NextPage = () => (
+  <Page title="Web3 App" description="">
+    <div className="flex flex-col gap-8">
+      <Hero />
+    </div>
+  </Page>
+);
+
+const Hero = () => {
   return (
-    <div>
-      <Head>
-        <title>Alpha</title>
-        <meta name="description" content="Alpha" />
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
-
-      <Header />
-      <main className="px-4 max-w-7xl mx-auto"></main>
+    <div className="relative">
+      <div className="mask mask-circle absolute inset-1/3 w-1/3 h-1/3 bg-primary" />
+      <div className="hero bg-base-200 bg-opacity-50 rounded-xl backdrop-blur-3xl">
+        <div className="hero-content text-center py-10 my-8">
+          <div className="max-w-md">
+            <h1 className="text-5xl font-bold">Buidl Something Great</h1>
+            <p className="py-6">
+              Use WAGMI to start reading and writing data with convenient hooks
+              like <code>useAccount</code> and <code>useContractRead</code>.
+            </p>
+            <div className="flex flex-col max-w-xs mx-auto gap-2">
+              <a
+                target="_blank"
+                rel="noreferrer"
+                href="https://wagmi.sh"
+                className="btn btn-primary"
+              >
+                WAGMI Docs
+              </a>
+              <a
+                target="_blank"
+                rel="noreferrer"
+                href="https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fdylandesrosier%2Fweb3-app&env=NEXT_PUBLIC_INFURA_ID"
+                className="btn btn-primary btn-outline"
+              >
+                Deploy on Vercel
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   );
 };
