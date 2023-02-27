@@ -9,7 +9,6 @@ body {
   padding: 0;
   margin: 0;
   font-family: OpenSans, sans-serif;
-  @apply bg-slate-50 text-slate-900 dark:bg-slate-900 dark:text-slate-100;
 }
 
 a {
