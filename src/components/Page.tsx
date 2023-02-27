@@ -26,7 +26,7 @@ export const Page = (props: {
 
 export const Header: React.FC = () => {
   return (
-    <div className="navbar bg-base-100 px-4 lg:px-8">
+    <div className="navbar bg-base-100 px-4 max-w-7xl mx-auto">
       <div className="navbar-start">
         <div className="dropdown">
           <label tabIndex={0} className="btn btn-ghost">
@@ -62,7 +62,9 @@ export const Header: React.FC = () => {
         </div>
       </div>
       <div className="navbar-center">
-        <a className="btn btn-ghost normal-case text-xl">Web3 App</a>
+        <a className="btn btn-ghost normal-case text-xl hidden sm:inline-flex">
+          Web3 App
+        </a>
       </div>
       <div className="navbar-end">
         <ConnectButton
@@ -77,7 +79,7 @@ export const Header: React.FC = () => {
 
 const Footer = () => {
   return (
-    <footer className="footer items-center p-4 absolute bottom-0">
+    <footer className="footer items-center p-4 absolute bottom-0 inset-x-0 max-w-7xl mx-auto">
       <div className="items-center grid-flow-col">
         <p className="text-sm">Built with ☕️ and ❤️</p>
       </div>

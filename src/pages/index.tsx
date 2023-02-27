@@ -12,7 +12,7 @@ const Home: NextPage = () => (
 const Hero = () => {
   return (
     <div className="relative">
-      <div className="mask mask-circle absolute inset-1/3 w-1/3 h-1/3 bg-primary" />
+      <div className="mask mask-circle absolute inset-1/3 w-1/3 h-1/3 bg-accent" />
       <div className="hero bg-base-200 bg-opacity-50 rounded-xl backdrop-blur-3xl">
         <div className="hero-content text-center py-10 my-8">
           <div className="max-w-md">
