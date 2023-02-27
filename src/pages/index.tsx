@@ -17,10 +17,18 @@ const Hero = () => {
         <div className="hero-content text-center py-10 my-8">
           <div className="max-w-md">
             <h1 className="text-5xl font-bold">Buidl Something Great</h1>
-            <p className="py-6">
-              Use WAGMI to start reading and writing data with convenient hooks
-              like <code>useAccount</code> and <code>useContractRead</code>.
-            </p>
+            <div className="flex flex-col gap-2 py-6">
+              <p>
+                Use WAGMI to start reading and writing data with convenient
+                hooks like <code>useAccount</code> and{" "}
+                <code>useContractRead</code>.
+              </p>
+              <p>
+                The <code>useContractWrite</code> hook makes it easy to write
+                data especially when paired with the{" "}
+                <code>TransactionButton</code> in the components folder.
+              </p>
+            </div>
             <div className="flex flex-col max-w-xs mx-auto gap-2">
               <a
                 target="_blank"
