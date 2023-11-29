@@ -5,34 +5,45 @@ import {
   darkTheme,
   getDefaultWallets,
 } from "@rainbow-me/rainbowkit";
-import { configureChains, createClient, WagmiConfig } from "wagmi";
-import { mainnet, polygon, optimism, arbitrum } from "wagmi/chains";
-import { infuraProvider } from "wagmi/providers/infura";
-import { publicProvider } from "wagmi/providers/public";
+import { configureChains, createConfig,  WagmiConfig } from "wagmi";
+import {
+  mainnet,
+  polygon,
+  optimism,
+  arbitrum,
+  base,
+  zora,
+} from 'wagmi/chains';
+import { alchemyProvider } from 'wagmi/providers/alchemy';
+import { publicProvider } from 'wagmi/providers/public';
+import { infuraProvider } from 'wagmi/providers/infura';
 
-const INFURA_ID = process.env.NEXT_PUBLIC_INFURA_ID as string;
-
-const { chains, provider } = configureChains(
-  [mainnet, polygon, optimism, arbitrum],
-  [infuraProvider({ apiKey: INFURA_ID }), publicProvider()]
+const { chains, publicClient } = configureChains(
+  [mainnet, polygon, optimism, arbitrum, base, zora],
+  [
+    infuraProvider({apiKey: process.env.NEXT_PUBLIC_INFURA_ID as string}),
+    alchemyProvider({ apiKey: process.env.NEXT_PUBLIC_ALCHEMY_KEY as string}),
+    publicProvider()
+  ]
 );
 
 const { connectors } = getDefaultWallets({
-  appName: "Alpha",
-  chains,
+  appName: 'Web3 App',
+  projectId: process.env.NEXT_PUBLIC_WALLETCONNECT_PROJECT_ID as string,
+  chains
 });
 
-const wagmiClient = createClient({
+const wagmiConfig = createConfig({
   autoConnect: true,
   connectors,
-  provider,
-});
+  publicClient
+})
 
 export const WalletConnectionProvider = (props: {
   children: React.ReactNode;
 }) => {
   return (
-    <WagmiConfig client={wagmiClient}>
+    <WagmiConfig config={wagmiConfig}>
       <RainbowKitProvider
         chains={chains}
         theme={{
