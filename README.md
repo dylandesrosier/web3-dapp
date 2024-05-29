@@ -16,8 +16,6 @@ A mildly opinionated, slim app configured with some of my favourite tools for bu
 
 [Styling - Tailwind](https://tailwindcss.com)
 
-[UI Kit - Daisyui](https://daisyui.com)
-
 [Icons - Feather Icons](https://www.npmjs.com/package/react-feather)
 
 ## Getting Started
