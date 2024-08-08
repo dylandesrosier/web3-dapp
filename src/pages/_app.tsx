@@ -2,13 +2,13 @@ import "../styles/globals.css";
 import "@rainbow-me/rainbowkit/styles.css";
 
 import type { AppProps } from "next/app";
-import { WalletConnectionProvider } from "../components/WalletConnectionProvider";
+import { Providers } from "../components/Providers";
 
 function MyApp({ Component, pageProps }: AppProps) {
   return (
-    <WalletConnectionProvider>
+    <Providers>
       <Component {...pageProps} />
-    </WalletConnectionProvider>
+    </Providers>
   );
 }
 

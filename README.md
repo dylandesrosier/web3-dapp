@@ -29,7 +29,7 @@ Use this repo as a template through GitHub's interface above or deploy straight 
 Install packages
 
 ```
-pnpm i
+bun install
 ```
 
 Set up environment variables
@@ -43,7 +43,7 @@ cp .env.local.template .env.local && open -t .env.local
 Run development server
 
 ```
-pnpm dev
+bun dev
 ```
 
 > Tip: Check out src/utils/blockchain.ts for some more convenience

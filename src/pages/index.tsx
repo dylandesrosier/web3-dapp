@@ -16,7 +16,7 @@ const Hero = () => {
       <div className="hero bg-base-200 bg-opacity-50 rounded-xl backdrop-blur-3xl">
         <div className="hero-content text-center py-10 my-8">
           <div className="max-w-md">
-            <h1 className="text-5xl font-bold">Buidl Something Great</h1>
+            <h1 className="text-5xl font-bold">Buidl Something</h1>
             <div className="flex flex-col gap-2 py-6">
               <p>
                 Use WAGMI to start reading and writing data with convenient
