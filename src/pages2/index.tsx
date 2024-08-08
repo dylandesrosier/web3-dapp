@@ -1,5 +1,5 @@
 import type { NextPage } from "next";
-import { Page } from "../components/Page";
+import { Page } from "../components/Page2";
 
 const Home: NextPage = () => (
   <Page title="Web3 App" description="">
